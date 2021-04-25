@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+    /* overflow:hidden; */
+}
+.hero-nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav-links{
+    text-decoration: none;
+    list-style: none;
+    display:flex;
+    align-items: center;
+    font-weight: 500;
+}
+.nav-links li{
+    padding-right: 15px;
+}
+a,a:hover{
+    text-decoration: none;
+    color: black;
+}
+#logo-fix{
+    height: 16px;
+    width: auto;
+}

@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    background-color: #F2F2F2;
 }
 .nav-links{
     text-decoration: none;
@@ -28,4 +29,38 @@ a,a:hover{
 #logo-fix{
     height: 16px;
     width: auto;
+}
+
+/* Hero Section */
+.hero-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero-text{
+    margin-top: 20%;
+}
+.hero-text-color{
+    color: #CF46FF;
+}
+.buttons{
+    padding-top: 10%;
+}
+.hero-heading{
+    padding-bottom: 20px;
+}
+#btn-1{
+    background-color: #CF46FF;
+    padding: 10px 50px;
+    color:white;
+    border-radius: 34px;
+    border: none;
+    cursor: pointer;
+}
+#btn-2{
+    background-color: #EBEBEB;
+    padding: 10px 50px;
+    color:rgb(0, 0, 0);
+    border-radius: 34px;
+    border: none;
+    cursor: pointer;
 }
